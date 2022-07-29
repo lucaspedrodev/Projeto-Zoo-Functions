@@ -1,5 +1,5 @@
-const { species } = require("../data/zoo_data");
-const data = require("../data/zoo_data");
+const { species } = require('../data/zoo_data');
+const data = require('../data/zoo_data');
 
 function getAnimalsOlderThan(animal, age) {
   /* const verificaAnimal = (species.find((elemento) => elemento.name === animal)); */
@@ -19,5 +19,5 @@ Retorne um valor booleano.
 
 O que será testado:
 
-A função, ao receber uma espécie e uma idade como parâmetros, 
+A função, ao receber uma espécie e uma idade como parâmetros,
 deve testar se todos os animais desta espécie possuem a idade mínima especificada. */
